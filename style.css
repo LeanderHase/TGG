@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 
-/* =====================
-   CSS VARIABLES
-   ===================== */
+/* 
+   CSS Variabeln
+    */
 :root {
   --clr-bg: #0d0d0d;
   --clr-surface: #141414;
@@ -21,9 +21,7 @@
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* =====================
-   RESET & BASE
-   ===================== */
+/* Basis */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -57,9 +55,7 @@ ul {
   list-style: none;
 }
 
-/* =====================
-   NAVIGATION
-   ===================== */
+/* Navigation */
 nav {
   position: fixed;
   top: 0;
@@ -145,9 +141,7 @@ nav {
   display: none !important;
 }
 
-/* =====================
-   HERO
-   ===================== */
+/* Herosektion */
 .hero {
   min-height: 100vh;
   display: grid;
@@ -438,9 +432,7 @@ nav {
   animation: float 4s ease-in-out infinite;
 }
 
-/* =====================
-   LOGOS SECTION
-   ===================== */
+/* Logos */
 .logos-section {
   padding: 3rem 5vw;
   border-top: 1px solid var(--clr-border);
@@ -473,9 +465,7 @@ nav {
   white-space: nowrap;
 }
 
-/* =====================
-   SERVICES
-   ===================== */
+/* Projekte/Services */
 .section {
   padding: 7rem 5vw;
 }
@@ -571,9 +561,7 @@ nav {
   line-height: 1.7;
 }
 
-/* =====================
-   ABOUT
-   ===================== */
+/* Über uns Teil */
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -664,78 +652,7 @@ nav {
   color: var(--clr-muted);
 }
 
-/* =====================
-   TESTIMONIALS
-   ===================== */
-.testimonials-section {
-  background: var(--clr-surface);
-}
-
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.testimonial-card {
-  background: var(--clr-bg);
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
-  transition: transform var(--transition), border-color var(--transition);
-}
-
-.testimonial-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(200, 245, 98, 0.2);
-}
-
-.testimonial-stars {
-  color: var(--clr-accent);
-  font-size: 0.85rem;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
-}
-
-.testimonial-text {
-  font-size: 0.95rem;
-  line-height: 1.8;
-  color: var(--clr-muted);
-  margin-bottom: 1.5rem;
-}
-
-.testimonial-author {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.author-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--clr-bg);
-  flex-shrink: 0;
-}
-
-.author-name {
-  font-weight: 500;
-  font-size: 0.9rem;
-}
-
-.author-role {
-  font-size: 0.78rem;
-  color: var(--clr-muted);
-}
-
-/* =====================
-   CTA SECTION
-   ===================== */
+/* Kontakfomular */
 .cta-section {
   padding: 7rem 5vw;
   text-align: center;
@@ -784,9 +701,7 @@ nav {
   flex-wrap: wrap;
 }
 
-/* =====================
-   FOOTER
-   ===================== */
+/* Footer */
 footer {
   padding: 4rem 5vw 2rem;
   border-top: 1px solid var(--clr-border);
@@ -842,9 +757,7 @@ footer {
   color: var(--clr-muted);
 }
 
-/* =====================
-   ANIMATIONS
-   ===================== */
+/* Animationen */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -871,9 +784,7 @@ footer {
   to { transform: scaleY(1); }
 }
 
-/* =====================
-   RESPONSIVE
-   ===================== */
+/* Responsive Stuff */
 @media (max-width: 1024px) {
   .hero {
     grid-template-columns: 1fr;
