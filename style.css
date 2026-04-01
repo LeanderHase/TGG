@@ -779,11 +779,12 @@ footer {
 }
 
 /* Responsive Stuff */
-@media (max-width: 1024px) {
-  .hero {
+@media (max-width: 700px) {
+  .about-section {
     grid-template-columns: 1fr;
-    padding-top: 7rem;
+    gap: 3rem;
   }
+}
 
   .hero-visual {
     display: none;
