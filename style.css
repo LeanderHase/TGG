@@ -573,6 +573,15 @@ nav {
   position: relative;
 }
 
+.about-image-box {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
 .about-image-box img {
   width: 100%;
   height: 100%;
