@@ -784,10 +784,6 @@ footer {
   }
 }
 
-  .hero-visual {
-    display: none;
-  }
-
   .services-grid {
     grid-template-columns: 1fr 1fr;
   }
