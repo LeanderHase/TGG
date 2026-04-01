@@ -563,10 +563,10 @@ nav {
 
 /* Über uns Teil */
 .about-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6rem;
-  align-items: center;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 4rem;
+  align-items: start;
 }
 
 .about-image-wrap {
