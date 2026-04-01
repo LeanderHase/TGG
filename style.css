@@ -318,9 +318,7 @@ nav {
 
 /* Hero Visual */
 .hero-visual {
-  position: relative;
-  z-index: 1;
-  animation: fadeUp 0.9s 0.2s ease both;
+  display: block !important;
 }
 
 .hero-card-stack {
